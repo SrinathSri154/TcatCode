@@ -1,0 +1,4 @@
+FirstName,MiddleName,LastName,ScreenName,Email-Id,Organizations,Role
+User1,middle1,Last1,User1,user1@cemportal.com,CSP,CEM User
+User2,middle2,last2,User2,user2@cemportal.com,CSP,UseCase Designer
+User3,middle2,last3,User3,user3@cemportal.com,CSP,Organization Owner

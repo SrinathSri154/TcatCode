@@ -1,0 +1,38 @@
+
+<settings>
+  <mirrors>
+    <mirror>
+      <id>aado-maven-central</id>
+      <name>aado-maven-central</name>
+      <url>https://repo.lab.pl.alcatel-lucent.com/jcenter/</url>
+      <mirrorOf>central</mirrorOf>
+    </mirror>
+    <mirror>
+      <id>nswps-mvn-inprogress</id>
+      <name>nswps-mvn-inprogress</name>
+      <url>https://repo.lab.pl.alcatel-lucent.com/nswps-mvn-inprogress/</url>
+      <mirrorOf>ACE</mirrorOf>
+    </mirror>
+  </mirrors>
+<profiles>
+<profile>
+<id>test</id>
+<repositories>
+  <repository>
+    <id>ACE</id>
+    <name>ACE</name>
+    <url>https://repo.lab.pl.alcatel-lucent.com/nswps-mvn-inprogress/</url>
+</repository>
+<repository>
+    <id>central</id>
+    <name>central</name>
+    <url>https://repo.lab.pl.alcatel-lucent.com/jcenter/</url>
+</repository>
+</repositories>
+</profile>
+</profiles>
+<activeProfiles>
+    <activeProfile>test</activeProfile>
+  </activeProfiles>
+
+</settings>

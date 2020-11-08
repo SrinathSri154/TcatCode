@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="324.365621">
+<testcase classname="CQI" name="Verify Locations tab of CQI SMS Failure Analysis for all possible combinations of By pulldown" time="324.365621">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.nokia.cemod.cct.core.widget.settings.CompositeChartSettings.getKpiNamesandColor(CompositeChartSettings.java:51)&#13;&#10;&#9;at com.nokia.cemod.cct.core.widget.wrappers.CompositeChart.getMinimumClickableElementsForWorkFlow(CompositeChart.java:42)&#13;&#10;&#9;at com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateWidget(CCTBasePage.java:360)&#13;&#10;&#9;at com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateWidgets(CCTBasePage.java:351)&#13;&#10;&#9;at com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateChildWidgets(CCTBasePage.java:396)&#13;&#10;&#9;at com.nokia.cemod.cct.pages.CCTBasePage.assertAndValidateChildWidgets(CCTBasePage.java:385)&#13;&#10;&#9;at com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateWidget(CCTBasePage.java:369)&#13;&#10;&#9;at com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateWidgets(CCTBasePage.java:351)&#13;&#10;&#9;at com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateChildWidgets(CCTBasePage.java:396)&#13;&#10;&#9;at com.nokia.cemod.cct.pages.CCTBasePage.assertAndValidateChildWidgets(CCTBasePage.java:385)&#13;&#10;&#9;at com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateWidget(CCTBasePage.java:369)&#13;&#10;&#9;at com.nokia.cemod.cct.pages.CCTBasePage.validateWorkFlow(CCTBasePage.java:544)&#13;&#10;&#9;at com.nokia.cemod.cct.pages.CCTBasePage.performClickForAllCombinations(CCTBasePage.java:612)&#13;&#10;&#9;at com.nokia.cemod.cct.pages.CCTBasePage.validateApplyButtonWorkFlowForAllCombinationsOfWidgetValues(CCTBasePage.java:591)&#13;&#10;&#9;at com.nokia.cemod.cct.tests.cucumber.keywords.CCTHandler.validate_Apply_Button_workflow_for_all_possible_combinations_of_widget_values(CCTHandler.java:109)&#13;&#10;&#9;at ✽.And Validate Apply Button workflow &quot;cemboard-apply-button-2195061&quot; for all possible combinations of widget values &quot;cemboard-pulldown-1564541&quot;(CQI_SMS Trend Analysis.feature:16)&#13;&#10;"><![CDATA[Given Login into application as "User"......................................passed
+And Navigate to Usecase Group "CUSTOMER QUALITY INSIGHT"....................passed
+And Navigate to Usecase "CQI SMS Failure Analysis"..........................passed
+Then Reset filters..........................................................passed
+And Select time filter as "Day" with value as "05/17/2020"..................passed
+And Select technology filter as "2G"........................................passed
+And Select location filter as "Areas" with value as "Sulawesi - Kota Manado - M.tbg Teling Bawah, Sulawesi - Kota Manado - Camar".passed
+And Select Subscribers filter as "" with value as ""........................passed
+And Apply filters...........................................................passed
+And Click on widget "cemboard-tab-494772" value "Locations".................passed
+And Validate Apply Button workflow "cemboard-apply-button-2195061" for all possible combinations of widget values "cemboard-pulldown-1564541".failed
+And Logoff..................................................................undefined
+
+StackTrace:
+java.lang.NullPointerException
+	at com.nokia.cemod.cct.core.widget.settings.CompositeChartSettings.getKpiNamesandColor(CompositeChartSettings.java:51)
+	at com.nokia.cemod.cct.core.widget.wrappers.CompositeChart.getMinimumClickableElementsForWorkFlow(CompositeChart.java:42)
+	at com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateWidget(CCTBasePage.java:360)
+	at com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateWidgets(CCTBasePage.java:351)
+	at com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateChildWidgets(CCTBasePage.java:396)
+	at com.nokia.cemod.cct.pages.CCTBasePage.assertAndValidateChildWidgets(CCTBasePage.java:385)
+	at com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateWidget(CCTBasePage.java:369)
+	at com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateWidgets(CCTBasePage.java:351)
+	at com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateChildWidgets(CCTBasePage.java:396)
+	at com.nokia.cemod.cct.pages.CCTBasePage.assertAndValidateChildWidgets(CCTBasePage.java:385)
+	at com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateWidget(CCTBasePage.java:369)
+	at com.nokia.cemod.cct.pages.CCTBasePage.validateWorkFlow(CCTBasePage.java:544)
+	at com.nokia.cemod.cct.pages.CCTBasePage.performClickForAllCombinations(CCTBasePage.java:612)
+	at com.nokia.cemod.cct.pages.CCTBasePage.validateApplyButtonWorkFlowForAllCombinationsOfWidgetValues(CCTBasePage.java:591)
+	at com.nokia.cemod.cct.tests.cucumber.keywords.CCTHandler.validate_Apply_Button_workflow_for_all_possible_combinations_of_widget_values(CCTHandler.java:109)
+	at ✽.And Validate Apply Button workflow "cemboard-apply-button-2195061" for all possible combinations of widget values "cemboard-pulldown-1564541"(CQI_SMS Trend Analysis.feature:16)
+]]></failure>
+</testcase>
+</testsuite>

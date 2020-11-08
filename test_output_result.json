@@ -1,0 +1,287 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4441312400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CCTHandler.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify Locations tab of CQI SMS Failure Analysis for all possible combinations of By pulldown",
+        "description": "",
+        "id": "cqi;verify-locations-tab-of-cqi-sms-failure-analysis-for-all-possible-combinations-of-by-pulldown;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 84300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CCTHandler.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30782717000,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 5,
+                "value": "#[\"REGRESSION\"]"
+              }
+            ],
+            "line": 6,
+            "name": "Login into application as \"User\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User",
+                  "offset": 27
+                }
+              ],
+              "location": "PortalHandler.login(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 363184700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigate to Usecase Group \"CUSTOMER QUALITY INSIGHT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CUSTOMER QUALITY INSIGHT",
+                  "offset": 27
+                }
+              ],
+              "location": "PortalHandler.navigateToUsecaseGroup(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31427812700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Navigate to Usecase \"CQI SMS Failure Analysis\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CQI SMS Failure Analysis",
+                  "offset": 21
+                }
+              ],
+              "location": "PortalHandler.navigateToUsecase(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1418636600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Reset filters",
+            "match": {
+              "location": "CGFHandler.resetFilters()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18505992400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Select time filter as \"Day\" with value as \"05/17/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day",
+                  "offset": 23
+                },
+                {
+                  "val": "05/17/2020",
+                  "offset": 43
+                }
+              ],
+              "location": "CGFHandler.applyTimeFilterForUsecase(String,String)"
+            },
+            "matchedColumns": [
+              6,
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8968397100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select technology filter as \"2G\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2G",
+                  "offset": 29
+                }
+              ],
+              "location": "CGFHandler.applyTechnologyFilterForUsecase(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65668281000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Select location filter as \"Areas\" with value as \"Sulawesi - Kota Manado - M.tbg Teling Bawah, Sulawesi - Kota Manado - Camar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Areas",
+                  "offset": 27
+                },
+                {
+                  "val": "Sulawesi - Kota Manado - M.tbg Teling Bawah, Sulawesi - Kota Manado - Camar",
+                  "offset": 49
+                }
+              ],
+              "location": "CGFHandler.applyLocationFilterForUsecase(String,String)"
+            },
+            "matchedColumns": [
+              9,
+              10
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 776100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Select Subscribers filter as \"\" with value as \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 30
+                },
+                {
+                  "val": "",
+                  "offset": 47
+                }
+              ],
+              "location": "CGFHandler.applySubscribersFilterForUsecase(String,String)"
+            },
+            "matchedColumns": [
+              11,
+              12
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9349222500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Apply filters",
+            "match": {
+              "location": "CGFHandler.applyFilters()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11786934900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on widget \"cemboard-tab-494772\" value \"Locations\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cemboard-tab-494772",
+                  "offset": 17
+                },
+                {
+                  "val": "Locations",
+                  "offset": 45
+                }
+              ],
+              "location": "CCTHandler.click_on_widget_value(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141652269400,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.nokia.cemod.cct.core.widget.settings.CompositeChartSettings.getKpiNamesandColor(CompositeChartSettings.java:51)\r\n\tat com.nokia.cemod.cct.core.widget.wrappers.CompositeChart.getMinimumClickableElementsForWorkFlow(CompositeChart.java:42)\r\n\tat com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateWidget(CCTBasePage.java:360)\r\n\tat com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateWidgets(CCTBasePage.java:351)\r\n\tat com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateChildWidgets(CCTBasePage.java:396)\r\n\tat com.nokia.cemod.cct.pages.CCTBasePage.assertAndValidateChildWidgets(CCTBasePage.java:385)\r\n\tat com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateWidget(CCTBasePage.java:369)\r\n\tat com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateWidgets(CCTBasePage.java:351)\r\n\tat com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateChildWidgets(CCTBasePage.java:396)\r\n\tat com.nokia.cemod.cct.pages.CCTBasePage.assertAndValidateChildWidgets(CCTBasePage.java:385)\r\n\tat com.nokia.cemod.cct.pages.CCTBasePage.clickAndValidateWidget(CCTBasePage.java:369)\r\n\tat com.nokia.cemod.cct.pages.CCTBasePage.validateWorkFlow(CCTBasePage.java:544)\r\n\tat com.nokia.cemod.cct.pages.CCTBasePage.performClickForAllCombinations(CCTBasePage.java:612)\r\n\tat com.nokia.cemod.cct.pages.CCTBasePage.validateApplyButtonWorkFlowForAllCombinationsOfWidgetValues(CCTBasePage.java:591)\r\n\tat com.nokia.cemod.cct.tests.cucumber.keywords.CCTHandler.validate_Apply_Button_workflow_for_all_possible_combinations_of_widget_values(CCTHandler.java:109)\r\n\tat ✽.And Validate Apply Button workflow \"cemboard-apply-button-2195061\" for all possible combinations of widget values \"cemboard-pulldown-1564541\"(CQI_SMS Trend Analysis.feature:16)\r\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "Validate Apply Button workflow \"cemboard-apply-button-2195061\" for all possible combinations of widget values \"cemboard-pulldown-1564541\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cemboard-apply-button-2195061",
+                  "offset": 32
+                },
+                {
+                  "val": "cemboard-pulldown-1564541",
+                  "offset": 111
+                }
+              ],
+              "location": "CCTHandler.validate_Apply_Button_workflow_for_all_possible_combinations_of_widget_values(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "Logoff",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@ID_TC_CQI_SMSFailureAnalysis_05"
+          }
+        ]
+      }
+    ],
+    "name": "CQI",
+    "description": "",
+    "id": "cqi",
+    "keyword": "Feature",
+    "uri": "CQI_SMS Trend Analysis.feature"
+  }
+]

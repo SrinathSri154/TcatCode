@@ -1,0 +1,137 @@
+{
+    "test_cases": [
+        {
+            "Test_ID": "ID_TC_CEI_01",
+            "Test_Title": "Verify CEI Dashboard",
+            "Tags": [
+                "FUNCTIONAL"
+            ]
+        },
+        {
+            "Test_ID": "ID_TC_CEI_02",
+            "Test_Title": "Verify pulldown values in CEI Application Analysis Usecase",
+            "Tags": [
+                "FUNCTIONAL"
+            ]
+        },
+		{
+            "Test_ID": "ID_TC_CEI_03",
+            "Test_Title": "Verify Table columns and Export button for CEI Application Analysis Usecase",
+            "Tags": [
+                "FUNCTIONAL"
+            ]
+        },
+		{
+            "Test_ID": "ID_TC_CEI_04",
+            "Test_Title": "Verify CEI Application Analysis Usecase",
+            "Tags": [
+                "FUNCTIONAL"
+            ]
+        },
+		{
+            "Test_ID": "ID_TC_CEI_05",
+            "Test_Title": "Verify pulldown values in CEI Comparison Usecase",
+            "Tags": [
+                "FUNCTIONAL"
+            ]
+        },
+		{
+            "Test_ID": "ID_TC_CEI_06",
+            "Test_Title": "Verify Table columns and Export button for CEI Comparison Usecase",
+            "Tags": [
+                "FUNCTIONAL"
+            ]
+        },
+		{
+            "Test_ID": "ID_TC_CEI_07",
+            "Test_Title": "Verify CEI Comparison Usecase",
+            "Tags": [
+                "FUNCTIONAL"
+            ]
+        },
+		{
+            "Test_ID": "ID_TC_CEI_08",
+            "Test_Title": "Verify pulldown values in CEI Distribution Usecase",
+            "Tags": [
+                "FUNCTIONAL"
+            ]
+        },
+		{
+            "Test_ID": "ID_TC_CEI_09",
+            "Test_Title": "Verify Table columns and Export button for CEI Distribution Usecase",
+            "Tags": [
+                "FUNCTIONAL"
+            ]
+        },
+		{
+            "Test_ID": "ID_TC_CEI_10",
+            "Test_Title": "Verify CEI Distribution Usecase",
+            "Tags": [
+                "FUNCTIONAL"
+            ]
+        },
+		{
+            "Test_ID": "ID_TC_CEI_11",
+            "Test_Title": "Verify CEI Highlights Usecase",
+            "Tags": [
+                "FUNCTIONAL"
+            ]
+        },
+		{
+            "Test_ID": "ID_TC_CEI_12",
+            "Test_Title": "Verify pulldown values in CEI Location Analysis Usecase",
+            "Tags": [
+                "FUNCTIONAL"
+            ]
+        },
+		{
+            "Test_ID": "ID_TC_CEI_13",
+            "Test_Title": "Verify Table columns and Export button for CEI Location Analysis Usecase",
+            "Tags": [
+                "FUNCTIONAL"
+            ]
+        },
+		{
+            "Test_ID": "ID_TC_CEI_14",
+            "Test_Title": "Verify CEI Location Analysis Usecase",
+            "Tags": [
+                "FUNCTIONAL"
+            ]
+        },
+		{
+            "Test_ID": "ID_TC_CEI_15",
+            "Test_Title": "Verify pulldown values in CEI Top Bottom X Usecase",
+            "Tags": [
+                "FUNCTIONAL"
+            ]
+        },
+		{
+            "Test_ID": "ID_TC_CEI_16",
+            "Test_Title": "Verify Table columns and Export button for CEI Top Bottom X Usecase",
+            "Tags": [
+                "FUNCTIONAL"
+            ]
+        },
+		{
+            "Test_ID": "ID_TC_CEI_17",
+            "Test_Title": "Verify CEI Top Bottom X Usecase",
+            "Tags": [
+                "FUNCTIONAL"
+            ]
+        },
+		{
+            "Test_ID": "ID_TC_CEI_18",
+            "Test_Title": "Verify pulldown values in CEI Trends Usecase",
+            "Tags": [
+                "FUNCTIONAL"
+            ]
+        },
+		{
+            "Test_ID": "ID_TC_CEI_19",
+            "Test_Title": "Verify CEI Trends Usecase",
+            "Tags": [
+                "FUNCTIONAL"
+            ]
+        }        
+    ]
+}
